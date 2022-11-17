@@ -4,6 +4,7 @@
 from tkinter import *
 import random
 
+# setting variables
 GAME_WIDTH = 700
 GAME_HEIGHT = 700
 SPEED = 200
@@ -14,6 +15,8 @@ FOOD_COLOR = "#FF0000"
 BACKGROUND_COLOR = "#000000"
 
 
+
+# creating the snake
 class Snake:
 
     def __init__(self):
